@@ -7,6 +7,8 @@ HTML
 CSS
 JavaScript
 PHP
+
+
 Software necesario:
 PostgreSQL - pgAdmin4
 VisualStudioCode
