@@ -1,0 +1,101 @@
+body {
+    background: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.formLogin {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    /* Reducir el tamaño de fuente */
+    margin: 10px auto;
+    /* Centrar y agregar espacio */
+}
+
+h4 {
+    font-size: 20px;
+    /* Reducir el tamaño de fuente */
+    margin: 10px auto;
+    /* Centrar y agregar espacio */
+}
+
+input {
+    color: #0d0d0d;
+    padding: 10px;
+    /* Reducir el padding */
+    width: 30%;
+    border: 2px solid #ccc;
+    /* Cambia el grosor y color del borde */
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+    /* Reducir el tamaño de la fuente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Añade sombra alrededor del campo */
+    transition: box-shadow 0.3s ease;
+    /* Agrega transición para la sombra */
+    margin: 4px auto;
+    /* Agregar espacio entre los campos de entrada y centrar horizontalmente */
+}
+
+
+input:hover,
+input:focus {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Cambia la sombra al pasar el ratón o cuando está enfocado */
+}
+
+
+
+.btn {
+    padding: 15px 20px;
+    margin-top: 40px;
+    background: black;
+    box-shadow: 0 0 20px rgba(192, 203, 251, 0.7);
+    width: 20vh;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#pass,
+#user {
+    background-color: white;
+    /* White background for input fields */
+    width: 247px;
+    height: 40px;
+    /* Increase input field height */
+    display: grid;
+    place-items: center;
+    /* Center text within input fields */
+    border: 2px solid #000000;
+    /* Add gray border */
+    border-radius: 25px;
+    /* Maintain rounded corners */
+    margin-top: 10px;
+    /* Maintain margin between elements */
+    padding: 0 10px;
+    /* Add padding to input fields */
+}
+
+#user {
+    margin-top: 20px;
+    /* Increase margin after username field */
+}

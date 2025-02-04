@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/estiloprueba.css" rel="stylesheet" type="text/css">
+    <title>Prestamo</title>
+    <script src="mensajes.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+
+                <a href="inicioEmpleado.html"><img src="img/biblioteca.jpg" alt="Logo"></a>
+
+
+
+                <h3>Biblioteca Universidad Tecnológica</h3>
+
+            </div>
+            <div class="navbar">
+                <nav>
+                    <ul class="menu">
+                        <li class="submenu">
+                            <a href="#">Alumnos</a>
+                            <ul class="submenu-content">
+                                <li><a href="altasAlumnos.html">Alta</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#">Profesores</a>
+                            <ul class="submenu-content">
+                                <li><a href="altaProfesor.html">Alta</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#">Libros</a>
+                            <ul class="submenu-content">
+                                <li><a href="altaLibros.html">Alta</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#">Prestamo</a>
+                            <ul class="submenu-content">
+                                <li><a href="altaPrestamo.html">Alta</a></li>
+                                <li><a href="devolución.html">Devolución</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>    
+
+    <div class= "altasClass">
+        <form class= "formAltas" method="post" action="altaDevolucion.php">
+            <h4>Tipo de Usuario: </h4> <br>
+            <select name="tipo_usuario" id="altas">
+                <option value="Estudiante">Estudiante</option>
+                <option value="Profesor">Profesor</option>
+            </select> <br>
+            <h4>Codigo: </h4> <br>
+            <input id="altas" type="text" name="codigo_usuario" placeholder="Codigo del Usuario"> <br>
+            <h4>ISBN del Libro: </h4> <br>
+            <input type="text" name="id_libro" id="altas" placeholder="ISBN"> <br>
+            <h4>Ejemplar: </h4> <br>
+            <input type="text" name="ejemplar" id="altas" placeholder="Ejemplar"> <br>
+            <h4>Fecha de la Devolución: </h4><br>
+            <input type="date" name="fecha_devolucion" id="altas" placeholder="Fecha de Salida"> <br>
+    
+            <input class="btnAlta" type="submit" name="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+Para poder importar las tablas, es importante hacer lo siguiente:
+En pgAdmin 4 buscar public>schemas y dar clic derecho, dar clic en restaurar o restore y seleccionar los archivos.
